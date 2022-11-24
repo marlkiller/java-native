@@ -21,6 +21,7 @@ dependencies {
 graalvmNative {
     binaries {
         main {
+            // https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html
             mainClass = 'Demo'
             imageName = 'java-native'
             javaLauncher = javaToolchains.launcherFor {
